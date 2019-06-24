@@ -4,13 +4,15 @@ module.exports = class extends Generator {
   prompting() {
     const prompts = [
       {
-        type: 'input',
+        type: 'list',
         name: 'appName',
-        message: '请输入项目名',
+        message: '请选择模板',
+        choices: ['react-antd-mobx-webpack', 'react-mobx-webpack', 'react-typescript-mobx-webpack'],
       },
     ];
 
     return this.prompt(prompts).then(answers => {
+      console.log(answers);
       this.answers = answers;
     });
   }
