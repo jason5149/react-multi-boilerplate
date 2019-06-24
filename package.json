@@ -1,0 +1,30 @@
+{
+  "name": "generator-react-multi-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason5149/react-multi-boilerplate.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "app",
+    "router"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason5149/react-multi-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jason5149/react-multi-boilerplate#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yeoman-generator": "^4.0.1"
+  }
+}
