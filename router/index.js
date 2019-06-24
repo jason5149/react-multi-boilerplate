@@ -5,7 +5,7 @@ module.exports = class extends Generator {
     const prompts = [
       {
         type: 'list',
-        name: 'appName',
+        name: 'templateName',
         message: '请选择模板',
         choices: ['react-antd-mobx-webpack', 'react-mobx-webpack', 'react-typescript-mobx-webpack'],
       },
