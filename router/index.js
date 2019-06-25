@@ -2,7 +2,15 @@ const Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
   prompting() {
+    const dirName = path.basename(this.destinationPath())
+    console.log(dirName);
     const prompts = [
+      {
+        type: 'input',
+        name: 'appName',
+        default: dirName,
+        message: '请输入项目名称',
+      },
       {
         type: 'list',
         name: 'templateName',
